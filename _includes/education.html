@@ -1,0 +1,13 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">Education</div>
+  <div class="panel-body">
+    {% for edu in site.education %}
+      <div class="education">
+        <div class="level">{{edu.level}}</div>
+        <div class="subject">{{edu.subject}}</div>
+        <div class="school hidden-sm hidden-xs" >{{edu.school}}</div>
+        <div class="date">{{edu.date}}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

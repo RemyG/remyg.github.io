@@ -4,3 +4,12 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+{% include introduction.html %}
+
+{% include skills.html %}
+
+{% include work.html %}
+
+{% include education.html %}
+
+{% include languages.html %}

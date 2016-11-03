@@ -13,16 +13,68 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Rémy Gardette
+email: contact@remyg.fr
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://remyg.fr" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: remygardette
+github_username:  RemyG
+
+introduction:
+  <p>I am a technical team leader working at IBM Client Innovation Center, having previously spent
+  over 5 years as a Java/JEE developer, in France and the United-Kingdom.</p>
+
+primarylinks:
+ - title: Blog
+   url: http://remyg.fr
+ - title: GitHub
+   url: https://github.com/RemyG
+ - title: LinkedIn
+   url: https://www.linkedin.com/in/remygardette
+
+skills:
+  - Java
+  - JEE
+  - Oracle
+  - Spring
+  - Swing
+
+education:
+  - level: Master of Engineering (M.Eng.)
+    date: 2009
+    subject: Computer Science
+    school: Institut National des Sciences Appliquées de Lyon
+
+roles:
+  - title: Technical Team Leader, Java/JEE
+    start: October 2014
+    end: Ongoing
+    employer: IBM Client Innovation Center (Lille, FR)
+    description:
+  - title: Mid-Level Developer, Java/JEE
+    start: February 2012
+    end: October 2014
+    employer: Multicom (Bristol, UK)
+    description:
+  - title: Software Engineer, Jave/JEE
+    start: September 2009
+    end: February 2012
+    employer: Alten (Lyon, FR)
+    description:
+
+languages:
+  - name: French
+    level: Native
+  - name: English
+    level: Full professional proficiency
+
+stackoverflow:
+  profileurl: http://stackoverflow.com/users/537994/remyg
+  flairimageurl: http://stackoverflow.com/users/flair/537994.png
 
 # Build settings
 markdown: kramdown
@@ -32,3 +84,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+sass:
+  sass_dir: _sass

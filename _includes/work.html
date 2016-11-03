@@ -1,0 +1,13 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">Experience</div>
+  <div class="panel-body">
+    {% for role in site.roles %}
+      <div class="role">
+        <div class="title">{{role.title}}</div>
+        <div class="employer">{{role.employer}}</div>
+        <div class="dates">{{role.start}} - {{role.end}}</div>
+        <div class="description hidden-sm hidden-xs" >{{role.description}}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

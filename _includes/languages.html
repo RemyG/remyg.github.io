@@ -1,0 +1,11 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">Languages</div>
+  <div class="panel-body">
+    {% for language in site.languages %}
+      <div class="language">
+        <div class="name">{{ language.name }}</div>
+        <div class="level">{{ language.level }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
