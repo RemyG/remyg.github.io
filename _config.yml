@@ -15,10 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Rémy Gardette
 email: contact@remyg.fr
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Java/JEE Technical team leader
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://remyg.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: remygardette
@@ -54,17 +51,59 @@ roles:
     start: October 2014
     end: Ongoing
     employer: IBM Client Innovation Center (Lille, FR)
-    description:
+    description: |
+      <p>For a major aircraft manufacturer, I'm in charge of a team of 5 Java/JEE developers.
+        <ul>
+          <li>Coordinate the development activities</li>
+          <li>Handle the communication between the team and the project manager</li>
+          <li>Act as technical leader for junior developers</li>
+          <li>Take part in the specifications, estimations, developments and maintenance of the applications.</li>
+          <li>Technologies: Java/JEE, Spring, Hibernate, Swing, SOAP web-services, JBoss, Oracle.</li>
+          <li>Tools: RTC (task and times control), Jazz (sources control), Alfresco (content management).</li>
+        </ul>
+      </p>
   - title: Mid-Level Developer, Java/JEE
     start: February 2012
     end: October 2014
     employer: Multicom (Bristol, UK)
-    description:
-  - title: Software Engineer, Jave/JEE
+    description: |
+      <p>Development and maintenance of the company's core product, FindAndBook, in its relation to the suppliers websites:
+        <ul>
+          <li>Online datamining (web-scraping of suppliers websites to retrieve all the required information and book flights).</li>
+          <li>Maintenance of the Viewdata (Videotex) application to communicate with legacy suppliers.</li>
+          <li>Writing of functional specifications for the integration of new modules.</li>
+          <li>Organized the migration of all the source code management from SVN to Git.</li>
+        </ul>
+      </p>
+  - title: Software Engineer, Java/JEE, PHP
     start: September 2009
     end: February 2012
     employer: Alten (Lyon, FR)
-    description:
+    description: |
+      <p>Management and realization of different internal projects :
+        <ul>
+          <li>SMS, email and mail information campaigns sending platform<br/><span class="technos">Java, Oracle, GWT, Hibernate, JasperReports, Tomcat</span></li>
+          <li>Company's website recruiting portal<br/><span class="technos">PHP, MySQL, PHP-MVC, Apache HTTPD</span></li>
+          <li>Several webservices, called by different internal applications<br/><span class="technos">Java, Axis2, Oracle, Tomcat</span></li>
+        </ul>
+      </p>
+      <p>Missions for clients :
+        <ul>
+          <li>Web porting of a VB application to PHP.<br/><span class="technos">PHP, PostGreSql, JavaScript, jQuery, jQGrid, Apache HTTPD</span></li>
+          <li>Realization of an auditing application.<br/><span class="technos">PHP, PostGreSql, JavaScript, Apache HTTPD</span></li>
+        </ul>
+      </p>
+  - title: Intern - Software Engineer, Java/JEE
+    start: December 2008
+    end: June 2009
+    employer: Alten (Lyon, FR)
+    description: |
+      <p>
+        <ul>
+          <li>Internal SMS sending platform<br/><span class="technos">J2EE, GWT, Hibernate, Oracle, Tomcat</span></li>
+          <li>Computer equipment lending application<br/><span class="technos">J2EE, GWT, Hibernate, Oracle, Tomcat</span></li>
+        </ul>
+      </p>
 
 languages:
   - name: French
