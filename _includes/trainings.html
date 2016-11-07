@@ -1,0 +1,13 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">Trainings and Certifications</div>
+  <div class="panel-body">
+    {% for training in site.trainings %}
+      <div class="training">
+        <div class="name">{{ training.name }}</div>
+        <div class="date">{{ training.date }}</div>
+        <div class="description">{{ training.description }}</div>
+        <div class="link"><a href="{{ training.link }}">Link</a></div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

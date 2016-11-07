@@ -10,6 +10,8 @@ layout: home
 
 {% include work.html %}
 
+{% include trainings.html %}
+
 {% include education.html %}
 
 {% include languages.html %}
