@@ -21,9 +21,10 @@ url: "http://remyg.fr" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: remygardette
 github_username:  RemyG
 
-introduction:
+introduction: |
   <p>I am a <strong>technical team leader</strong> working at IBM Client Innovation Center, having previously spent
   over 5 years as a Java/JEE developer, in France and the United-Kingdom.</p>
+  <p>Since December 2016, I am an <strong>Oracle Certified Professional, Java SE 7 Programmer II</strong>.</p>
 
 primarylinks:
  - title: Blog
@@ -108,14 +109,21 @@ roles:
       </p>
 
 trainings:
-  - name: Oracle Certified Associate, Java SE 7 Programmer
+  - name: Oracle Certified Professional, Java SE 7 Programmer II
+    date: December 2016
+    description: Certification reference <strong>1Z0-804</strong>
+    link: https://www.youracclaim.com/badges/24eb2210-8298-4a12-af86-0e2e39fdc7aa
+    image: https://acclaim-production-app.s3.amazonaws.com/images/bb0fbf21-af70-419b-84bb-333855ac0c77/oracle_professional.png
+  - name: Oracle Certified Associate, Java SE 7 Programmer I
     date: May 2015
-    description:
+    description: Certification reference <strong>1Z0-803</strong>
     link: https://www.youracclaim.com/badges/57bcb865-7a89-456f-b598-8716eaf75cf4
+    image: https://acclaim-production-app.s3.amazonaws.com/images/9a059197-f042-430c-870b-edd629c10b31/oracle_associate.png
   - name: IBM Project Management courses
     date: 2015 - 2016
     description: Followed several Project Management courses provided by the IBM Project Management University.
     link:
+    image:
 
 languages:
   - name: French

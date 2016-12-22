@@ -3,10 +3,17 @@
   <div class="panel-body">
     {% for training in site.trainings %}
       <div class="training">
-        <div class="name">{{ training.name }}</div>
-        <div class="date">{{ training.date }}</div>
-        <div class="description">{{ training.description }}</div>
-        <div class="link"><a href="{{ training.link }}">Link</a></div>
+        {% if training.image.size > 0 %}
+          <div class="image"><img src="{{ training.image }}"/></div>
+        {% endif %}
+        <div class="content">
+          <div class="name">{{ training.name }}</div>
+          <div class="date">{{ training.date }}</div>
+          <div class="description">{{ training.description }}</div>
+          {% if training.link.size > 0 %}
+            <div class="link"><a href="{{ training.link }}">Link</a></div>
+          {% endif %}
+        </div>
       </div>
     {% endfor %}
   </div>

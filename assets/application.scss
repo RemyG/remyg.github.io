@@ -48,23 +48,40 @@
 }
 
 .training {
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  clear: both;
   &:not(:first-of-type)
   {
     border-top: 1px #337ab7 solid;
   }
-  .name {
-    font-weight: bold;
+  .image {
+    //display: inline-block;
+    float: left;
+    line-height: normal;
+    img {
+      display: block;
+      width: 100px;
+    }
   }
-  .date {
+  .content
+  {
+    //display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 120px;
+    .name {
+      font-weight: bold;
+    }
+    .date {
 
-  }
-  .description {
+    }
+    .description {
 
-  }
-  .link {
+    }
+    .link {
 
+    }
   }
 }
 
